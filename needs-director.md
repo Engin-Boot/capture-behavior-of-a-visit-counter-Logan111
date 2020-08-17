@@ -1,10 +1,15 @@
-Scenario: Show patient visits during working days and holidays
- Given with the permission to  hospital computers
-  When a patient visits the hospital he is given with appointment Forum which has a serial number on it
-  Then looking into the numbers you can conclude number of patient visits 
+# Visit-counter for a Director
 
+Scenario: Show patient visits during working days and holidays
+
+  Given with proper functioning of hospital servers
+  When there is a option of "show patient visits during working days"
+  And an option as "show patient visits during holidays"
+  Then there pops the "data" as requested
 
 Scenario: Compute parking slots to reserve for visiting specialists
-  Given with the permission to hospital security monitors
-  When I see the parking slots alloted to visiting specialists
-  Then I can display the result
+
+  Given with proper functioning of hospital servers
+  When the parking slots are empty
+  And there is a option to "reserve for visiting specialists" 
+  Then the slot would be reserved
