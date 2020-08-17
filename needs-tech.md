@@ -6,7 +6,7 @@ that runs the visit-counter
   Given with proper functioning server and storage
   When server goes off copy visitor count to storage
   and when server recovers copy from local to server
-  Then the visitor count had been updated
+  Then the visitor count will have updated
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
