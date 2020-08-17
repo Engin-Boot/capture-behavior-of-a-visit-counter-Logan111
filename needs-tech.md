@@ -1,3 +1,4 @@
+
 # Visit-counter technical needs
 
 Scenario: Recover across restarts of the server
