@@ -6,7 +6,6 @@ Scenario: Report visitor trends during a week of operation
   When Facilities Manager need to check visitors on a particular day
   Then show number of visitors on that day
   
-  
 Scenario: Alert when seating capacity is full
 
   Given with the proper functioning of hospital servers and total visitors count
