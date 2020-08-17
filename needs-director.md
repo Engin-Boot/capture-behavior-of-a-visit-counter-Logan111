@@ -12,4 +12,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   Given with proper functioning of hospital servers
   When the parking slots are empty
   And an option as "reserve for visiting specialists" is available
-  Then the slot would be reserved
+  Then the slot gets allotted
