@@ -11,4 +11,3 @@ Scenario: Alert when seating capacity is full
   Given with the proper functioning of hospital servers and total visitors count
   When visitors count equals with seating capacity and choose to "alert security"
   Then this alerts the security department so they can block the new visitors
-
