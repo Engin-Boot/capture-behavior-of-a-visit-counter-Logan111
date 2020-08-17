@@ -2,9 +2,9 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given with the proper functioning of hospital servers, visitor cards count
+  
   Given with the count of visitor cards
-  When the card is issued once, the daily in and out is not monitored 
+  When the card is issued once,the daily in and out is not monitored 
   Then the count of visitor cards is enough to say number of visitors a week
 
 Scenario: Alert when seating capacity is full
